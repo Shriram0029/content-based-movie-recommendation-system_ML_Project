@@ -81,7 +81,7 @@ directly to this repository:
 All required project files are available via Google Drive.
 
 🔗 **Google Drive (All Project Files):**  
-👉 **PASTE YOUR GOOGLE DRIVE LINK HERE**
+👉 **https://drive.google.com/drive/folders/1bpMTOT-oKuV5QLnTS7ywABhfWzzmGK1Q?usp=sharing**
 
 Download all files from the link and place them in the same project folder
 before running the application.
