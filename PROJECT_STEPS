@@ -1,0 +1,134 @@
+CONTENT-BASED MOVIE RECOMMENDATION SYSTEM
+========================================
+
+This project implements a Content-Based Movie Recommendation System using
+Machine Learning techniques and provides an interactive Streamlit web interface.
+
+
+FILES USED IN THIS PROJECT
+--------------------------
+1. Movie Recommendation System using Machine Learning with Python.ipynb
+2. movies.csv
+3. app.py
+4. requirements.txt
+5. movies.pkl
+6. similarity.pkl
+
+
+IMPORTANT NOTE (READ FIRST)
+---------------------------
+Due to GitHub file size limitations, the files:
+
+- movies.pkl
+- similarity.pkl
+
+are not uploaded directly to GitHub.
+
+All required project files (including the above two files) are available
+in a single Google Drive folder.
+
+Download all files from the Google Drive link and place them together
+in one project directory before proceeding.
+
+Google Drive Link:
+<PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE>
+
+
+STEP 1: INSTALL PYTHON
+---------------------
+Ensure Python 3.10 is installed on your system.
+
+Check using:
+python --version
+
+Recommended version:
+Python 3.10.x
+
+
+STEP 2: CREATE A VIRTUAL ENVIRONMENT
+-----------------------------------
+Open a terminal in the project folder and run:
+
+python -m venv venv
+
+Activate the virtual environment:
+
+For Windows:
+venv\Scripts\activate
+
+For macOS/Linux:
+source venv/bin/activate
+
+
+STEP 3: INSTALL REQUIRED DEPENDENCIES
+------------------------------------
+Install all required libraries using:
+
+pip install -r requirements.txt
+
+This installs:
+- NumPy
+- Pandas
+- Scikit-learn
+- Streamlit
+
+
+STEP 4: RUN THE JUPYTER NOTEBOOK (OPTIONAL)
+------------------------------------------
+Open the notebook file:
+
+Movie Recommendation System using Machine Learning with Python.ipynb
+
+Run all cells in order:
+Kernel → Restart
+Run → Run All
+
+The notebook performs:
+- Data loading and preprocessing
+- TF-IDF vectorization
+- Cosine similarity computation
+
+The notebook generates:
+- movies.pkl
+- similarity.pkl
+
+(Note: These files are already provided via Google Drive and need not
+be regenerated unless required.)
+
+
+STEP 5: RUN THE STREAMLIT APPLICATION
+------------------------------------
+Make sure the virtual environment is activated.
+
+Run the Streamlit app using:
+
+streamlit run app.py
+
+
+STEP 6: USE THE APPLICATION
+---------------------------
+1. Enter your favorite movie name in the input box.
+2. Click the "Recommend" button.
+3. The system displays a list of recommended movies based on similarity.
+
+
+PROJECT DESCRIPTION
+-------------------
+This is a content-based recommendation system that suggests movies based
+on similarity between movie metadata using TF-IDF Vectorization and
+Cosine Similarity. The system does not require user ratings and works
+purely on movie content.
+
+
+TECHNOLOGIES USED
+-----------------
+- Python 3.10
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+
+
+AUTHOR
+------
+Shriram Narayanan
